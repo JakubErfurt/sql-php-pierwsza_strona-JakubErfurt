@@ -15,3 +15,4 @@
 </body>
 </html>
 <?php
+require_once("connect.php");
