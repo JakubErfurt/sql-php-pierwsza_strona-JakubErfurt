@@ -3,10 +3,10 @@ echo("jestes w delete.php <br>");
 echo $_POST['id'];
 
 
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
+$servername = "remotemysql.com";
+    $username = " OuuQyKjM5n";
+    $password = "Xa5cSuc0AP";
+    $dbname = "OuuQyKjM5n";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 //definiujemy zapytanie $sql
-$sql = "DELETE FROM Pracownik WHERE id= $_POST['id'];";
+$sql = "DELETE FROM Pracownik WHERE" id= $_POST['id'];;
 
 //wyświetlamy zapytanie $sql
 echo $sql;
