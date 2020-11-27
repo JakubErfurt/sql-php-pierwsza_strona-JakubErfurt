@@ -11,7 +11,7 @@
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-JakubErfurt">github</a>
     <br>
     <a href="index.php">Pracownicy</a>
-    <a href="praciorgy.php">Organizacja i Pracownicy</a>
+    <a href="praciorg.php">Organizacja i Pracownicy</a>
 </body>
 </html>
 <?php
