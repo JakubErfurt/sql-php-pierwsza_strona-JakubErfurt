@@ -1,5 +1,5 @@
 		<?php
-	echo("jesteś na stronie.php");
+	echo("jesteś na stronie123.php");
 	
 	echo("<ul>");
 	
