@@ -1,10 +1,7 @@
 <?php
-echo("jestes w delete.php <br>");
-echo $_POST['id'];
-
 
 $servername = "remotemysql.com";
-    $username = " OuuQyKjM5n";
+    $username = "OuuQyKjM5n";
     $password = "Xa5cSuc0AP";
     $dbname = "OuuQyKjM5n";
 
