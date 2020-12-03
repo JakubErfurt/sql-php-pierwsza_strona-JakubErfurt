@@ -8,10 +8,16 @@
 </head>
 <body>
     <h1>Jakub Erfurt nr1</h1>
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-JakubErfurt">github</a>
+    <a href="https://github.com/JakubErfurt/sql-php-pierwsza_strona-JakubErfurt">github</a>
     <br>
-    <a href="index.php">Pracownicy</a>
-    <a href="praciorg.php">Organizacja i Pracownicy</a>
+    <nav class="nav">
+        <a href="index.php">Pracownicy</a>
+        <a href="funkAgregujaca.php">Funkcje agregujące</a>
+        <a href="praciorg.php">Organizacja i pracownicy</a>
+        <a href="dataczas.php">Data i czas</a>
+        <a href="formularz.html">Formularz</a>
+        <a href="danedobazy.php">Dane do bazy</a>
+    </nav>
 </body>
 </html>
 <?php
