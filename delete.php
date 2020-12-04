@@ -17,6 +17,7 @@ $sql = "DELETE FROM Pracownik WHERE" id= $_POST['id'];;
 echo $sql;
 
 if ($conn->query($sql) === TRUE) {
+ header('Location: https://strona123.herokuapp.com/danedobazy.php');
   echo "New record created successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
