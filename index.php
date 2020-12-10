@@ -17,7 +17,7 @@
         <a href="dataczas.php">Data i czas</a>
         <a href="formularz.html">Formularz</a>
         <a href="danedobazy.php">Dane do bazy</a>
-       <a href="select.html">Select</a>
+       <a href="">Select</a>
     </nav>
 </body>
 </html>
