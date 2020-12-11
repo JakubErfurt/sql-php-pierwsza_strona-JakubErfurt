@@ -18,6 +18,7 @@
         <a href="formularz.html">Formularz</a>
         <a href="danedobazy.php">Dane do bazy</a>
        <a href="lista.html">Lista</a>
+       <a href="ksiazki.php">Ksiazki</a>
     </nav>
 </body>
 </html>
