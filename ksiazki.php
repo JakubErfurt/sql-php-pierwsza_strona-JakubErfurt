@@ -30,10 +30,10 @@
 
 
     echo("<table border='1'>");
-    echo("<th>ID</th><th>Imie</th><th>Zarobki</th><th>Data Urodzenia</th><th>Dzial</th><th>Nazwa dzial</th>");
+    echo("<th>id</th><th>biblAutor_id</th><th>biblTytul_id</th><th>biblWypoz</th><th>id</th><th>autor</th>");
         while($row = mysqli_fetch_assoc($result)) {
             echo("<tr>");
-            echo("<td>".$row['id_pracownicy']."</td><td>".$row['imie']."</td><td>".$row['zarobki']."</td><td>".$row['data_urodzenia']."</td><td>".$row['dzial']."</td><td>".$row['nazwa_dzial']."</td>");
+            echo("<td>".$row['id']."</td><td>".$row['biblAutor_id']."</td><td>".$row['biblTytul_id']."</td><td>".$row['biblWypoz']."</td><td>".$row['id']."</td><td>".$row['autor']."</td>");
             echo("</tr>");
         };
     echo("</table>");
