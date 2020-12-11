@@ -24,12 +24,10 @@
 <?php
     require_once("connect.php");
 
-    $sql = "SELECT * FROM pracownicy, organizacja WHERE id_org = dzial";
+    $sql = "SELECT * FROM biblAutor_biblTytul, biblAutor WHERE biblAtor_id=biblAutor.id
 
     $result = mysqli_query($conn, $sql);
 
-    echo("<h1>Zadanie 1</h1>");
-    echo("<h2>".$sql."</h2>");
 
     echo("<table border='1'>");
     echo("<th>ID</th><th>Imie</th><th>Zarobki</th><th>Data Urodzenia</th><th>Dzial</th><th>Nazwa dzial</th>");
