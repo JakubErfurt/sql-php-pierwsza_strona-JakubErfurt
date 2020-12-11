@@ -24,7 +24,7 @@
 <?php
     require_once("connect.php");
 
-    $sql = "SELECT * FROM biblAutor_biblTytul, biblAutor WHERE biblAtor_id=biblAutor.id";
+    $sql = "SELECT * FROM biblAutor_biblTytul, biblAutor WHERE biblAutor_id=biblAutor.id";
 
     $result = mysqli_query($conn, $sql);
 
