@@ -17,8 +17,6 @@
         <a href="dataczas.php">Data i czas</a>
         <a href="formularz.html">Formularz</a>
         <a href="danedobazy.php">Dane do bazy</a>
-	<a href="ksiazki.php">Ksiazki</a>
-	    <a href="lista.html">Lista</a>
 	
     </nav><br>
     <h2>Dodawanie pracownika</h2>
