@@ -12,12 +12,14 @@
     <a href="https://github.com/JakubErfurt/sql-php-pierwsza_strona-JakubErfurt">github</a>
     <br>
     <nav class="nav">
-        <a href="index.php">Pracownicy</a>
+         <a href="index.php">Pracownicy</a>
         <a href="funkAgregujaca.php">Funkcje agregujące</a>
         <a href="praciorg.php">Organizacja i pracownicy</a>
         <a href="dataczas.php">Data i czas</a>
         <a href="formularz.html">Formularz</a>
-        <a href="danedobazy.php">Dane do bazy</a>
+        <a href="danedobazy.html">Dane do bazy</a>
+	<a href="lista.html">Lista</a>
+	<a href="ksiazki.php">Ksiazki</a>
     </nav>
 </body>
 </html>
