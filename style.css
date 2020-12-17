@@ -17,3 +17,45 @@ th {
 tr {
   background-color: #e6ffff;
   }
+a:link, a:visited {
+  background-color: #99ccff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+a:hover, a:active {
+  background-color: red;
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.imie {
+    margin: 10px; 
+    
+}
+.red {
+    background-color: lightcoral;
+    width: 100%;
+    margin: 10px;
+}
+.menu {
+    margin: 10px;
+}
+.blue {
+    background-color: #99ccff;
+    width: 10%
+}
+.tresc {
+    margin: 10px;
+}
+.green {
+    background-color: lightgreen;
+    width: 80%;
+    margin: 10px;
+}
