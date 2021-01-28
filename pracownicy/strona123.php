@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1 class="name">Jakub Erfurt nr1</h1>
+	<h1 class="name">Jakub Erfurt</h1>
     <a href="https://github.com/JakubErfurt/sql-php-pierwsza_strona-JakubErfurt" class="github-link">github</a>
     <br>
     <nav class="nav">
