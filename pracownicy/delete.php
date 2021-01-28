@@ -12,7 +12,7 @@ echo "<br>";
 $sql = "DELETE FROM pracownicy WHERE id_pracownicy=".$_POST['id'];
 
 if ($conn->query($sql) === TRUE) {
-  header('Location: https://strona123.herokuapp.com/danedobazy.php');
+  header('Location: https://strona123.herokuapp.com/pracownicy/danedobazy.php');
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
