@@ -23,7 +23,6 @@
     </nav>
 </body>
 </html>
-<?php
     <select name="autor"  style="width:50px" >
 	<?php
  
