@@ -16,7 +16,7 @@
         <a href="../pracownicy/praciorg.php">Organizacja i pracownicy</a>
         <a href="../pracownicy/dataczas.php">Data i czas</a>
         <a href="../pracownicy/formularz.html">Formularz</a>
-        <a href="../pracownicy/danedobazy.html">Dane do bazy</a>
+        <a href="../pracownicy/danedobazy.php">Dane do bazy</a>
 	<a href="../biblioteka/lista.html">Lista</a>
 	<a href="../biblioteka/ksiazki.php">Ksiazki</a>
     </nav>
