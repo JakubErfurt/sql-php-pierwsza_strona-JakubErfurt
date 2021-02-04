@@ -23,10 +23,10 @@
     </nav>
 	<?php
  	require_once("connect.php");
-	mysql_select_db("autor",$conn);
-	$sql=mysqli_query("select autor from bibl_Autor");
+	$sql = "SELECT autor from biblAutor_biblTytul, biblAutor WHERE biblAutor_id=biblAutor.id";
+	$result = mysqli_query($conn, $sql);
  
-	while($z=mysql_fetch_row($sql))
+	while($result=mysql_fetch_row($sql))
 	{
 	echo'<option value="2">'.$sql['Henryk Sienkiewicz'].'</option>';
 		echo'<option value="3">'.$z['Adam Mickiewicz'].'</option>';
