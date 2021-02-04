@@ -32,8 +32,11 @@
 	while($biblAutor = mysql_fetch_array($result))
 	{
 	echo'
-	<option value="">'.$result['autor'].'
-	</option>';
+	<option value="2">'.$sql['Henryk Sienkiewicz'].'</option>';
+		<option value="3">'.$sql['Adam Mickiewicz'].'</option>';
+		<option value="4">'.$sql['Tolkien'].'</option>';
+		<option value="6">'.$sql['Rafał Kusik'].'</option>';
+		<option value="7">'.$sql['Aleksander Fredro'].'</option>';
 	}
 	?>
 	</select>
