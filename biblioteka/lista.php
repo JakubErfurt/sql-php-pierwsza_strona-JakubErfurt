@@ -26,7 +26,8 @@
     <select name="autor"  style="width:50px" >
 	<?php
  
-	$result = mysqli_query("SELECT autor FROM biblAutor WHERE biblAutor_id=biblAutor.id");
+	$sql = mysqli_query("SELECT autor FROM biblAutor WHERE biblAutor_id=biblAutor.id");
+	$result = mysqli_query($conn, $sql)
  
 	while($biblAutor = mysql_fetch_array($result))
 	{
