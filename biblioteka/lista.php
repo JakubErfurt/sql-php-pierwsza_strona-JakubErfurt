@@ -21,6 +21,8 @@
 	<a href="../biblioteka/lista.php">Lista</a>
 	<a href="../biblioteka/ksiazki.php">Ksiazki</a>
     </nav>
+	</body>
+</html>
 
 
 	<?php
@@ -37,5 +39,3 @@
 		echo'<option value="7">'.$result['Aleksander Fredro'].'</option>';
 	}
 	?>
-	</body>
-</html>
