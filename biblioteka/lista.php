@@ -21,9 +21,6 @@
 	<a href="../biblioteka/lista.php">Lista</a>
 	<a href="../biblioteka/ksiazki.php">Ksiazki</a>
     </nav>
-</body>
-</html>
-    <select name="autor"  style="width:50px" >
 	<?php
  	require_once("connect.php");
 	mysql_select_db("autor",$conn);
@@ -38,4 +35,5 @@
 		echo'<option value="7">'.$z['Aleksander Fredro'].'</option>';
 	}
 	?>
-	</select>
+/body>
+</html>
