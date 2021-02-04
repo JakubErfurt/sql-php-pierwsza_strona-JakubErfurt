@@ -1,1 +1,1 @@
-https://strona123.herokuapp.com
+https://jakuberfurt.herokuapp.com
