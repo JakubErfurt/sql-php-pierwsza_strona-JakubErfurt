@@ -25,14 +25,13 @@
 </html>
     <select name="autor"  style="width:50px" >
 	<?php
- 
+ 	require_once("connect.php");
 	$sql = mysqli_query("SELECT autor FROM biblAutor WHERE biblAutor_id=biblAutor.id");
 	$result = mysqli_query($conn, $sql)
  
 	while($biblAutor = mysql_fetch_array($result))
 	{
-	echo'
-	<option value="2">'.$sql['Henryk Sienkiewicz'].'</option>';
+	echo'<option value="2">'.$sql['Henryk Sienkiewicz'].'</option>';
 		echo'<option value="3">'.$sql['Adam Mickiewicz'].'</option>';
 		echo'<option value="4">'.$sql['Tolkien'].'</option>';
 		echo'<option value="6">'.$sql['Rafał Kusik'].'</option>';
