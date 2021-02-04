@@ -21,6 +21,9 @@
 	<a href="../biblioteka/lista.php">Lista</a>
 	<a href="../biblioteka/ksiazki.php">Ksiazki</a>
     </nav>
+	/body>
+</html>
+
 	<?php
  	require_once("connect.php");
 	$sql = "SELECT autor from biblAutor_biblTytul, biblAutor WHERE biblAutor_id=biblAutor.id";
@@ -35,5 +38,3 @@
 		echo'<option value="7">'.$z['Aleksander Fredro'].'</option>';
 	}
 	?>
-/body>
-</html>
