@@ -33,10 +33,10 @@
 	{
 	echo'
 	<option value="2">'.$sql['Henryk Sienkiewicz'].'</option>';
-		<option value="3">'.$sql['Adam Mickiewicz'].'</option>';
-		<option value="4">'.$sql['Tolkien'].'</option>';
-		<option value="6">'.$sql['Rafał Kusik'].'</option>';
-		<option value="7">'.$sql['Aleksander Fredro'].'</option>';
+		echo'<option value="3">'.$sql['Adam Mickiewicz'].'</option>';
+		echo'<option value="4">'.$sql['Tolkien'].'</option>';
+		echo'<option value="6">'.$sql['Rafał Kusik'].'</option>';
+		echo'<option value="7">'.$sql['Aleksander Fredro'].'</option>';
 	}
 	?>
 	</select>
