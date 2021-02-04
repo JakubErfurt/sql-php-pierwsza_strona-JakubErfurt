@@ -21,7 +21,7 @@
 	<a href="../biblioteka/lista.php">Lista</a>
 	<a href="../biblioteka/ksiazki.php">Ksiazki</a>
     </nav>
-	/body>
+	</body>
 </html>
 
 	<?php
