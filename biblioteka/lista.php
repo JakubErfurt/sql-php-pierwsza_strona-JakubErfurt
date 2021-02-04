@@ -21,8 +21,7 @@
 	<a href="../biblioteka/lista.php">Lista</a>
 	<a href="../biblioteka/ksiazki.php">Ksiazki</a>
     </nav>
-	</body>
-</html>
+
 
 	<?php
  	require_once("connect.php");
@@ -38,3 +37,5 @@
 		echo'<option value="7">'.$z['Aleksander Fredro'].'</option>';
 	}
 	?>
+	</body>
+</html>
