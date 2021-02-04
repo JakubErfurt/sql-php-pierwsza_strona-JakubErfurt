@@ -30,11 +30,11 @@
  
 	while($result=mysql_fetch_row($sql))
 	{
-	echo'<option value="2">'.$sql['Henryk Sienkiewicz'].'</option>';
-		echo'<option value="3">'.$z['Adam Mickiewicz'].'</option>';
-		echo'<option value="4">'.$z['Tolkien'].'</option>';
-		echo'<option value="6">'.$z['Rafał Kusik'].'</option>';
-		echo'<option value="7">'.$z['Aleksander Fredro'].'</option>';
+	echo'<option value="2">'.$result['Henryk Sienkiewicz'].'</option>';
+		echo'<option value="3">'.$result['Adam Mickiewicz'].'</option>';
+		echo'<option value="4">'.$result['Tolkien'].'</option>';
+		echo'<option value="6">'.$result['Rafał Kusik'].'</option>';
+		echo'<option value="7">'.$result['Aleksander Fredro'].'</option>';
 	}
 	?>
 	</body>
