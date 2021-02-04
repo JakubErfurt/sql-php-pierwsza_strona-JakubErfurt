@@ -24,9 +24,9 @@
 	<?php
  	require_once("connect.php");
 	mysql_select_db("autor",$conn);
-	$x mysqli_query("select autor from bibl_Autor");
+	$sql=mysqli_query("select autor from bibl_Autor");
  
-	while($z=mysql_fetch_row($x))
+	while($z=mysql_fetch_row($sql))
 	{
 	echo'<option value="2">'.$sql['Henryk Sienkiewicz'].'</option>';
 		echo'<option value="3">'.$z['Adam Mickiewicz'].'</option>';
