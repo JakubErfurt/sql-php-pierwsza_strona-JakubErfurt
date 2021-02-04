@@ -27,15 +27,21 @@
 
 	<?php
  	require_once("connect.php");
-	$sql = "SELECT autor from biblAutor_biblTytul, biblAutor WHERE biblAutor_id=biblAutor.id";
-	$result = mysqli_query($conn, $sql);
- 
-	while($result=mysql_fetch_row($sql))
-	{
-	echo'<option value="2">'.$result['Henryk Sienkiewicz'].'</option>';
-		echo'<option value="3">'.$result['Adam Mickiewicz'].'</option>';
-		echo'<option value="4">'.$result['Tolkien'].'</option>';
-		echo'<option value="6">'.$result['Rafał Kusik'].'</option>';
-		echo'<option value="7">'.$result['Aleksander Fredro'].'</option>';
-	}
+
+mysql_select_db(baza) or die('Błąd: Nie można wybraż bazy danych!');
+
+$sql = mysql_query ("SELECT autor FROM bibl_autor");
+
+echo '<select name="autor">';
+
+echo '<option value="">Wybierz Autora</option>';
+
+while($option = mysql_fetch_assoc($sql)) {
+
+echo '<option value="'.$option['autor'].'">'.$option['autor'].'</option>';
+
+}
+
+echo '</select>';
+
 	?>
