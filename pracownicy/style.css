@@ -12,9 +12,13 @@ th, td {
   text-align: center;
 }
 th {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #9999ff; 
 }
 tr {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #e6ffff;
   }
 a:link, a:visited {
