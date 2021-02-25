@@ -19,14 +19,11 @@
        <a href="../biblioteka/lista.php">Lista</a>
        <a href="../biblioteka/ksiazki.php">Ksiazki</a>
     </nav>
-</body>
-</html>
-<?php
+    <?php
 require_once("connect.php");
-$hostname =$_SERVER['HTTP_HOST'];
+$hostname  =$_SERVER['HTTP_HOST'];
 if ($hostname == 'localhost') {
-    require_once ("config.php");
-    
-    echo (<h1> 123</h1>)
         echo("<li> hostname : " .$hostname)
         ?>
+</body>
+</html>
