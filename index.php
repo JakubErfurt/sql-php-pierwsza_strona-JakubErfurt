@@ -23,7 +23,7 @@
 require_once("connect.php");
 $hostname  =$_SERVER['HTTP_HOST'];
 if ($hostname == 'localhost') {
-        echo("<li> hostname : " .$hostname)
+        echo("<li> hostname : " .$hostname);
         ?>
 </body>
 </html>
