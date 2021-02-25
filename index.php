@@ -21,8 +21,7 @@
     </nav>
     <?php
 require_once("connect.php");
-$hostname  =$_SERVER['HTTP_HOST'];
-if ($hostname == 'localhost') {
+$hostname  =$_SERVER['HTTP_HOST']; 
         echo("<li> hostname : " .$hostname);
         ?>
 </body>
