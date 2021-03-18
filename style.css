@@ -1,61 +1,39 @@
-table, th, td {
-  border: 1px solid black;
-}
-table {
-  border-collapse: collapse;
-}
-body {
-  background-color: #ffa900;
-}
-th, td {
-  padding: 8px;
-  text-align: center;
-}
-th {
-  background-color: #9999ff; 
-}
-tr {
-  background-color: #e6ffff;
-  }
-a:link, a:visited {
-  background-color: #99ccff;
-  color: black;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-
-}
-
-a:hover, a:active {
-  background-color: red;
-
+* {
+    margin: 0;
+    padding: 0;
 }
 .container {
-    display: flex;
-    flex-wrap: wrap;
+    background-color: blue;
+    padding: 5px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
+    grid-template-areas:
+    "a a e"
+    "b c e"
+    "d d e";
 }
-.imie {
-    margin: 10px; 
-    
+header {
+    background-color: red;
+    grid-area: a;
+    height: 15vh;
 }
-.red {
-    background-color: lightcoral;
-    width: 100%;
-    margin: 10px;
+nav {
+   background-color: orange;
+    grid-area: b;
+
 }
-.menu {
-    margin: 10px;
+main{
+    background-color: lightblue;
+    grid-area: c;
+    height: 75vh;
 }
-.blue {
-    background-color: #99ccff;
-    width: 10%
+aside{
+    background-color: pink;
+    grid-area: e;
 }
-.tresc {
-    margin: 10px;
-}
-.green {
+footer{
     background-color: lightgreen;
-    width: 80%;
-    margin: 10px;
+    grid-area: d;
+    height: 15vh;
 }
