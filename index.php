@@ -18,6 +18,7 @@
         <a href="../pracownicy/danedobazy.php">Dane do bazy</a>
        <a href="../biblioteka/lista.php">Lista</a>
        <a href="../biblioteka/ksiazki.php">Ksiazki</a>
+       <a href="../grid/index.html">Grid</a>
     </nav>
     <?php
 require_once("connect.php");
