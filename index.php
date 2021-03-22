@@ -18,7 +18,7 @@
         <a href="../pracownicy/danedobazy.php">Dane do bazy</a>
        <a href="../biblioteka/lista.php">Lista</a>
        <a href="../biblioteka/ksiazki.php">Ksiazki</a>
-       <a href="../grid/index.html">Grid</a>
+       <a href="../grid/strona1/index.html">Grid</a>
        <a href="../strona1/index.html">strona1</a>
     </nav>
     <?php
