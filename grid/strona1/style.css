@@ -1,48 +1,38 @@
 * {
     margin: 0;
     padding: 0;
-}
-.container {
-    background-color: lightblue;
-    padding: 0px;
+  }
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "f a a a"
-    "f b b e"
-    "f d g e";
-}
-header {
-    background-color: lightgreen;
-    grid-area: a;
-    height: 25vh;
-    margin: 5px;
-}
-nav {
-   background-color: blue;
-    grid-area: b;
-    height: 50vh;
-    margin: 5px;
-}
-main{
-    background-color: red;
-    grid-area: f;
-    margin: 5px;
-}
-aside{
-    background-color: orange;
-    grid-area: e;
-    margin: 5px;
-}
-footer{
-    background-color:yellow;
-    grid-area: d;
-    height: 25vh;
-    margin: 5px;
-}
-footer1{
-    background-color:yellow;
-    grid-area: g;
-    height: 25vh;
-    margin: 5px;
+    grid-template-columns: 1fr 2fr 0.5fr;
+    grid-template-areas: 
+    "a d e"
+    "a c e"
+    "a b e"; }
+    header {
+        background-color: red;
+        grid-area: a;
+        height: 100vh;
+    }
+    nav {
+        background-color: yellow;
+        grid-area: b;
+        height: 33vh;
+    }
+    main {
+        background-color: lightskyblue;
+        grid-area: c;
+        height: 33vh;
+    }
+    aside {
+        background-color: pink;
+        grid-area: e;
+    }
+    footer {
+        background-color: lightgreen;
+        grid-area: d;
+        height: 33vh;
+    }
