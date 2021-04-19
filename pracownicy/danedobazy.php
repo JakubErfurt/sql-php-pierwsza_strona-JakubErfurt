@@ -11,12 +11,7 @@
     <a href="https://github.com/JakubErfurt/sql-php-pierwsza_strona-JakubErfurt" class="github-link">github</a>
     <br>
     <nav class="nav">
-        <a href="index.php">Pracownicy</a>
-        <a href="../pracownicy/funkAgregujaca.php">Funkcje agregujące</a>
-        <a href="../pracownicy/praciorg.php">Organizacja i pracownicy</a>
-        <a href="../pracownicy/formularz.html">Formularz</a>
-        <a href="../pracownicy/danedobazy.php">Dane do bazy</a>
-	
+         <?php include"menu.php" ?>
     </nav><br>
     <h2>Dodawanie pracownika</h2>
     <form action="insert.php" method="POST">
