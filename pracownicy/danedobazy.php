@@ -11,7 +11,7 @@
     <a href="https://github.com/JakubErfurt/sql-php-pierwsza_strona-JakubErfurt" class="github-link">github</a>
     <br>
     <nav class="nav">
-         <?php include"menu.php" ?>
+         <?php include"../menu.php" ?>
     </nav><br>
     <h2>Dodawanie pracownika</h2>
     <form action="insert.php" method="POST">
