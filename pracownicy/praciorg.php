@@ -11,7 +11,7 @@
     <a href="https://github.com/JakubErfurt/sql-php-pierwsza_strona-JakubErfurt">github</a>
     <br>
     <nav class="nav">
-          <?php include"menu.php" ?>
+          <?php include"../menu.php" ?>
     </nav>
 </body>
 </html>
