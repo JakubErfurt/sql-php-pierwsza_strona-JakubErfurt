@@ -83,22 +83,6 @@
      }
         echo('</table>');
 ?>
-        <?php
-require_once("connect.php");
-echo("Delete" . "<br>");
-echo $_POST['szkola.id'];
-echo "<br>";
-
-$sql = "DELETE FROM Uczen WHERE Uczen_id=".$_POST['szkola.id'];
-
-if ($conn->query($sql) === TRUE) {
-  header('Location: https://jakuberfurt.herokuapp.com/pracownicy/danedobazy.php');
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
-?>
         </div>
       </aside>
     </div>
