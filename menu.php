@@ -1,4 +1,4 @@
-        <a href="index.php">Pracownicy</a>
+        <a href="../index.php">Pracownicy</a>
         <a href="../pracownicy/funkAgregujaca.php">Funkcje agregujące</a>
         <a href="../pracownicy/praciorg.php">Organizacja i pracownicy</a>
         <a href="../pracownicy/formularz.html">Formularz</a>
