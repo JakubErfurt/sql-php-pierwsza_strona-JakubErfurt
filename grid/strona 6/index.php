@@ -15,7 +15,7 @@
             <div class="b">
                 <?php
                     require_once("../../connect.php");
-    $sql = "SELECT id_pracownicy, imie ,dzial, zarobki FROM pracownicy where id_org=dzial";
+    $sql = "SELECT * FROM pracownicy where id_org=dzial";
     $result = mysqli_query($conn, $sql);
     echo('<table border="1">');
         echo('<th>id</th><th>imie</th><th>dzial</th><th>zarobki</th>');
