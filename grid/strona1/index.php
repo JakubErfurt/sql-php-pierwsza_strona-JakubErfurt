@@ -9,13 +9,10 @@
   </head>
   <body>
     <div class="container">
-      <header>
-      <div class="tabela1">
+      <div class="a">
       <?php
     require_once("../../connect.php");
     $sql = "SELECT * FROM pracownicy";
-    echo("<br>");
-    echo($sql);
     $result = mysqli_query($conn, $sql);
 
     echo('<table border="1">');
@@ -27,60 +24,55 @@
      }
         echo('</table>');
 ?>
-        </div>
-      </header>
-      <nav>
-      2
-      </nav>
-      <main>
+      </div>
+            <div class="b">
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT szkola.id, Nauczyciel, nazwisko FROM nauczyciele, szkola, Uczen where nauczyciele.id=szkola.nauczyciele_id and Uczen.id=szkola.uczen_id";
-    echo("<br>");
-    echo($sql);
+    $sql = "SELECT * FROM pracownicy";
     $result = mysqli_query($conn, $sql);
-    if ( $result) {
-        echo "<li>ok";
-        } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-     }
+
     echo('<table border="1">');
-        echo('<th>id</th><th>Nauczyciel</th><th>Nazwisko</th>');
+        echo('<th>id</th><th>Pracownik</th>');
         while($row=mysqli_fetch_assoc($result)){
             echo('<tr>');
-            echo('<td>'.$row['id'].'</td><td>'.$row['Nauczyciel'].'</td><td>'.$row['nazwisko'].'</td>');
+            echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td>');
             echo('</tr>');
      }
         echo('</table>');
 ?>
-      </main>
-      <footer>
-      4
-      </footer>
-      <aside>
-      <div class="tabela1">
+      </div>
+            <div class="c">
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT * FROM Uczen";
-    echo("<br>");
-    echo($sql);
+    $sql = "SELECT * FROM pracownicy";
     $result = mysqli_query($conn, $sql);
-    if ( $result) {
-        echo "<li>ok";
-        } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-     }
+
     echo('<table border="1">');
-        echo('<th>Id</th><th>nazwisko</th>');
+        echo('<th>id</th><th>Pracownik</th>');
         while($row=mysqli_fetch_assoc($result)){
             echo('<tr>');
-            echo('<td>'.$row['id'].'</td><td>'.$row['nazwisko'].'</td>');
+            echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td>');
             echo('</tr>');
      }
         echo('</table>');
 ?>
-        </div>
-      </aside>
+      </div>
+            <div class="d">
+      <?php
+    require_once("../../connect.php");
+    $sql = "SELECT * FROM pracownicy";
+    $result = mysqli_query($conn, $sql);
+
+    echo('<table border="1">');
+        echo('<th>id</th><th>Pracownik</th>');
+        while($row=mysqli_fetch_assoc($result)){
+            echo('<tr>');
+            echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td>');
+            echo('</tr>');
+     }
+        echo('</table>');
+?>
+      </div>
     </div>
   </body>
 </html>
