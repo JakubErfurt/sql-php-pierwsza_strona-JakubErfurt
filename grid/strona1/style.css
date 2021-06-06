@@ -16,7 +16,7 @@
         background-color: red;
         grid-area: a;
         height: auto;
-       margin: auto;
+
     }
    .b {
         background-color: green;
@@ -40,4 +40,7 @@
     }
    h1{
        text-align: center;
+}
+.tab1{
+    margin:auto;
 }
