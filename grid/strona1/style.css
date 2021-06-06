@@ -32,4 +32,9 @@
         grid-area: d;
         height: auto;
     }
+.e {
+        background-color: magenta;
+        grid-area: e;
+        height: auto;
+    }
    
