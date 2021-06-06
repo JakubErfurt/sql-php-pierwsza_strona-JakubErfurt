@@ -12,27 +12,24 @@
     "a d e"
     "a c e"
     "a b e"; }
-    header {
+   .a {
         background-color: red;
         grid-area: a;
-        height: 100vh;
+        height: auto;
     }
-    nav {
-        background-color: yellow;
+   .b {
+        background-color: green;
         grid-area: b;
-        height: 33vh;
+        height: auto;
     }
-    main {
-        background-color: lightskyblue;
+   .c {
+        background-color: yellow;
         grid-area: c;
-        height: 33vh;
+        height: auto;
     }
-    aside {
-        background-color: pink;
-        grid-area: e;
-    }
-    footer {
-        background-color: lightgreen;
+   .d {
+        background-color: blue;
         grid-area: d;
-        height: 33vh;
+        height: auto;
     }
+   
