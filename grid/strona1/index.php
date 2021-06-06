@@ -10,8 +10,8 @@
   <body>
     <div class="container">
       <div class="a">
-         <a href="index2.php">index2</a>
-              <a href="index3.php">index3</a>
+         <a href="index2.php" id="de">index2</a>
+              <a href="index3.php" id="dr">index3</a>
       </div>
             <div class="b">
                <div class="tab1">
