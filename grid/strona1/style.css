@@ -46,9 +46,10 @@
     margin-top:50px;
 }
 #de{
-    display:block;
+   display: inline-block;
     background-color: green;
 }
 #dr{
-    display:block;
+    display: inline-block;
+    background-color: blue;
 }
