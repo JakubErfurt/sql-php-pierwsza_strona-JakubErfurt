@@ -59,24 +59,16 @@
       </div>
             <div class="d">
               <h1>TEMAT</h1>
-?>
-      </div>
       </div>
             <div class="e">
-      <?php
-    require_once("../../connect.php");
-    $sql = "SELECT * FROM pracownicy where imie like %a";
-    $result = mysqli_query($conn, $sql);
+      <form action="insert.php" method="POST">
+        <input type="text" name="id">
+        <input type="text" name="imie">
+        <input type="text" name="dzial">
+        <input type="text" name="zarobki">
+        <input type="submit" name="dodaj">
+              </form>
 
-    echo('<table border="1">');
-        echo('<th>id</th><th>Pracownik</th>');
-        while($row=mysqli_fetch_assoc($result)){
-            echo('<tr>');
-            echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td>');
-            echo('</tr>');
-     }
-        echo('</table>');
-?>
       </div>
     </div>
   </body>
