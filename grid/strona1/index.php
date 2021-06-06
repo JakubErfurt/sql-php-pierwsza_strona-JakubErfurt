@@ -10,7 +10,11 @@
   <body>
     <div class="container">
       <div class="a">
-        <div class="tab1">
+         <a href="index2.php">index2</a>
+              <a href="index3.php">index3</a>
+      </div>
+            <div class="b">
+               <div class="tab1">
       <?php
     require_once("../../connect.php");
     $sql = "SELECT * FROM pracownicy";
@@ -26,26 +30,10 @@
         echo('</table>');
 ?>
         </div>
-      </div>
-            <div class="b">
-              <a href="index2.php">index2</a>
-              <a href="index3.php">index3</a>
+            
       </div>
             <div class="c">
-      <?php
-    require_once("../../connect.php");
-    $sql = "SELECT * FROM pracownicy";
-    $result = mysqli_query($conn, $sql);
-
-    echo('<table border="1">');
-        echo('<th>id</th><th>Pracownik</th>');
-        while($row=mysqli_fetch_assoc($result)){
-            echo('<tr>');
-            echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td>');
-            echo('</tr>');
-     }
-        echo('</table>');
-?>
+      
       </div>
             <div class="d">
               <h1>TEMAT</h1>
