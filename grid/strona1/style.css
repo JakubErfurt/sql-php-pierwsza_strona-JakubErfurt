@@ -46,10 +46,10 @@
     margin-top:50px;
 }
 #de{
-   display: inline-block;
+   display:block;
     background-color: green;
 }
 #dr{
-    display: inline-block;
+    display:block;
     background-color: blue;
 }
