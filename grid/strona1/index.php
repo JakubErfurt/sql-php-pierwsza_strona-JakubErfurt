@@ -13,7 +13,7 @@
       <div class="tabela1">
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT * FROM nauczyciele";
+    $sql = "SELECT * FROM pracownicy";
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
@@ -23,10 +23,10 @@
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
      }
     echo('<table border="1">');
-        echo('<th>id</th><th>Nauczyciel</th>');
+        echo('<th>id</th><th>Pracownik</th>');
         while($row=mysqli_fetch_assoc($result)){
             echo('<tr>');
-            echo('<td>'.$row['id'].'</td><td>'.$row['Nauczyciel'].'</td>');
+            echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td>');
             echo('</tr>');
      }
         echo('</table>');
