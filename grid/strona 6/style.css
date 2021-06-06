@@ -16,35 +16,37 @@
 .a {
     background-color: lightgreen;
     grid-area: a;
-    height: 25vh;
+    height: auto;
     margin: 5px;
 }
 .b{
    background-color: blue;
     grid-area: b;
-    height: 50vh;
+    height: auto;
     margin: 5px;
 }
 .c{
     background-color: red;
     grid-area: c;
     margin: 5px;
+    height: auto;
 }
 .d{
     background-color: orange;
     grid-area: d;
     margin: 5px;
+    height: auto;
 }
 .e{
     background-color:yellow;
     grid-area: e;
-    height: 25vh;
+    height: auto;
     margin: 5px;
 }
 .f{
     background-color:yellow;
     grid-area: f;
-    height: 25vh;
+    height: auto;
     margin: 5px;
 .tyt{
     text-align: center;
