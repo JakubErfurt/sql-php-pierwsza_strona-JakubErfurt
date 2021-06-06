@@ -9,40 +9,40 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "f a a a"
-    "f b b e"
-    "d d g e";
+    "c a a a"
+    "c b b d"
+    "e e f d";
 }
-header {
+.a {
     background-color: lightgreen;
     grid-area: a;
     height: 25vh;
     margin: 5px;
 }
-nav {
+.b{
    background-color: blue;
     grid-area: b;
     height: 50vh;
     margin: 5px;
 }
-main{
+.c{
     background-color: red;
-    grid-area: f;
+    grid-area: c;
     margin: 5px;
 }
-aside{
+.d{
     background-color: orange;
-    grid-area: e;
+    grid-area: d;
     margin: 5px;
 }
-footer{
+.e{
     background-color:yellow;
-    grid-area: d;
+    grid-area: e;
     height: 25vh;
     margin: 5px;
 }
-footer1{
+.f{
     background-color:yellow;
-    grid-area: g;
+    grid-area: f;
     height: 25vh;
     margin: 5px;
