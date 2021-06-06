@@ -1,8 +1,19 @@
 <?php
+
 $id_pracownicy=$_POST['id_pracownicy'];
 $imie=$_POST['imie'];
 $dzial=$_POST['dzial'];
 $zarobki=$_POST['zarobki'];
+if($id_pracownicy and $imie and $dzial and $zarobki) {
+    
+
+    
+
+    
+
+    
+   
+
 
 require_once("../../connect.php");
 
@@ -12,5 +23,6 @@ $result=mysqli_query($conn, $sql);
 
 if($result) echo "Rekord został dodany poprawnie";
     else echo "Błąd nie udało się dodać nowego rekordu";
-
+      mysql_close($connection);
+}
 ?>
