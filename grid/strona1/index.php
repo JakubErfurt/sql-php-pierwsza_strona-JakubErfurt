@@ -10,6 +10,7 @@
   <body>
     <div class="container">
       <div class="a">
+        <div class="tab1">
       <?php
     require_once("../../connect.php");
     $sql = "SELECT * FROM pracownicy";
@@ -24,6 +25,7 @@
      }
         echo('</table>');
 ?>
+        </div>
       </div>
             <div class="b">
       <?php
