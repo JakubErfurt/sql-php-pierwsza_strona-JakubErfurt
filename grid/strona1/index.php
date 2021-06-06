@@ -58,9 +58,14 @@
 ?>
       </div>
             <div class="d">
+              <h1>TEMAT</h1>
+?>
+      </div>
+      </div>
+            <div class="e">
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT * FROM pracownicy";
+    $sql = "SELECT * FROM pracownicy where imie like %a";
     $result = mysqli_query($conn, $sql);
 
     echo('<table border="1">');
