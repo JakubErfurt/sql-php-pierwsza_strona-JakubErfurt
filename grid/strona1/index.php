@@ -28,20 +28,8 @@
         </div>
       </div>
             <div class="b">
-      <?php
-    require_once("../../connect.php");
-    $sql = "SELECT * FROM pracownicy";
-    $result = mysqli_query($conn, $sql);
-
-    echo('<table border="1">');
-        echo('<th>id</th><th>Pracownik</th>');
-        while($row=mysqli_fetch_assoc($result)){
-            echo('<tr>');
-            echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td>');
-            echo('</tr>');
-     }
-        echo('</table>');
-?>
+              <a href="index2.php">index2</a>
+              <a href="index3.php">index3</a>
       </div>
             <div class="c">
       <?php
