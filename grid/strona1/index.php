@@ -17,11 +17,7 @@
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
-    if ( $result) {
-        echo "<li>ok";
-        } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-     }
+
     echo('<table border="1">');
         echo('<th>id</th><th>Pracownik</th>');
         while($row=mysqli_fetch_assoc($result)){
