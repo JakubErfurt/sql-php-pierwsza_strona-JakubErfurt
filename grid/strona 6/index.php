@@ -14,7 +14,7 @@
             </div>
             <div class="b">
                 <?php
-                    require_once("../../connect.php");
+     require_once("../../connect.php");
     $sql = "SELECT * FROM pracownicy where id_org=dzial";
     $result = mysqli_query($conn, $sql);
     echo('<table border="1">');
