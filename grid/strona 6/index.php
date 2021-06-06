@@ -33,6 +33,7 @@
                     <input type="text" name="imie">
                     <input type="number" name="dzial"></br>
 			        <input type="number" name="zarobki"></br>
+		<input type="submit" value="dodaj pracownika">
                 </form>
             </div>
             <div class="e"></div>
